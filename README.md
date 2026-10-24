@@ -1,4 +1,4 @@
-# 🤖 BUDDY — ESP32 Pomodoro Desk Companion
+# ESP32 Pomodoro Desk Companion
 
 A tiny, expressive desk companion built using an **ESP32 DevKit**, a **0.96-inch OLED display**, and a **4-digit countdown timer**.
 
@@ -14,7 +14,7 @@ BUDDY makes focus sessions a little more fun with animated facial expressions, i
 
 ![BUDDY sleeping after countdown](images/timer-complete.jpg)
 
-## ✨ Features
+## Features
 
 - **25-minute and 45-minute focus modes**
 - **Single-click** to change the selected duration
@@ -28,7 +28,7 @@ BUDDY makes focus sessions a little more fun with animated facial expressions, i
 - DHT11 temperature and humidity monitoring
 - Temperature-dependent facial reactions
 
-## 🛠️ Hardware
+## Hardware
 
 - ESP32 DevKit (ESP-WROOM-32)
 - SSD1306 0.96-inch OLED display (128 × 64)
@@ -38,7 +38,7 @@ BUDDY makes focus sessions a little more fun with animated facial expressions, i
 - Breadboard and jumper wires
 - USB power supply or power bank
 
-## 🔌 Pin Connections
+## Pin Connections
 
 | Component | ESP32 Pin |
 |---|---|
@@ -51,7 +51,7 @@ BUDDY makes focus sessions a little more fun with animated facial expressions, i
 
 All modules share a common ground. Power connections must match each module's electrical specifications.
 
-## 🍅 How It Works
+## How It Works
 
 **1. Select a session**
 
@@ -73,7 +73,7 @@ At `00:00`, BUDDY yawns and returns to its sleeping expression. The timer remain
 
 After resting, press the button to start another session using the previously selected duration.
 
-## 💻 Software Requirements
+## Software Requirements
 
 Arduino IDE with ESP32 board support.
 
@@ -85,7 +85,7 @@ Required libraries:
 - DHT sensor library by Adafruit
 - Adafruit Unified Sensor
 
-## 🚀 Getting Started
+## Getting Started
 
 1. Clone this repository.
 2. Open `buddy.ino` in Arduino IDE.
@@ -95,7 +95,7 @@ Required libraries:
 6. Upload the sketch.
 7. Select a focus duration and double-click to begin.
 
-## 🔮 Possible Future Improvements
+## Possible Future Improvements
 
 - Buzzer alerts and melodies
 - Automatic break timer
@@ -104,7 +104,7 @@ Required libraries:
 - 3D-printed enclosure
 - Additional animated expressions
 
-## 📌 Project Status
+## Project Status
 
 **Prototype / Work in Progress**
 
